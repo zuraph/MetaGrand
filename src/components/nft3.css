@@ -1,0 +1,209 @@
+.button3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    /* identical to box height */
+    text-transform: capitalize;
+    /* White */
+    color: #ffffff;
+    /* background: #e5e5e5; */
+    margin-top: 50px;
+}
+
+.dvv {
+    /* border: 1px solid white; */
+}
+
+.slick-next {
+    right: 5px !important;
+}
+
+.slick-prev {
+    left: 21px !important;
+}
+
+.card-wrapper {
+    width: 95%;
+    height: 210px;
+    background: rgba(10, 19, 38, 0.7);
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+}
+.card-wrapper::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:10px;
+    padding:1px;
+    background: linear-gradient(214deg, #F4765D -50%, rgba(0, 0, 0, 0) 30%, #8d00cc8f 150%) ;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+
+.main-wrapper {
+    position: relative;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+/* .card-shadow-box {
+    position: absolute;
+    background: white;
+    top: 0%;
+    left: 0px;
+    width: 375px;
+    height: 263px;
+    z-index: -2;
+} */
+
+.card-header {
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.card-header .card-image {
+    margin: 0px 15px;
+    margin-top: 10px;
+}
+
+.card-header-name {
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    /* White */
+    color: #FFFFFF;
+}
+
+.card-info-wrapper {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.card-info-wrapper span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    text-transform: capitalize;
+    /* Color Tone 3 */
+    color: #778DB9;
+}
+
+.Topo {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 24px;
+    text-transform: capitalize;
+    background: #0b152a 70%;
+    /* White */
+    color: #ffffff;
+}
+
+.TopoText {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.pp {
+    background: #0b152a 70%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 157% */
+    padding: 10px 45.45px 55.3px 46px;
+    text-transform: capitalize;
+    /* Color Tone 3 */
+    color: #778db9;
+}
+
+.MuiPaper-root {
+    background-color: none !important;
+}
+
+@media screen and (max-width: 860px) {
+    .card-wrapper {
+        width: 95%;
+    }
+    .card-info-wrapper span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .card-wrapper {
+        width: 95%;
+        height: 320px;
+        margin-bottom: 15px;
+    }
+    .card-info-wrapper span {
+        padding-top: 10px;
+        /* font-size: 1px; */
+        line-height: 22px;
+    }
+    .card-header {
+        /* border: 1px solid white; */
+        display: flex;
+        align-items: center;
+    }
+    .card-header .card-image {
+        margin: 0px 15px;
+        margin-top: 10px;
+    }
+    .card-header-name {
+        margin-top: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 24px;
+        text-transform: capitalize;
+        /* White */
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .card-wrapper {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .card-wrapper {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 90%;
+    }
+}

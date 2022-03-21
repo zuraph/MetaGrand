@@ -1,0 +1,245 @@
+.box_typo5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*align-items: flex-start;*/
+    /* margin-left: 140px; */
+    height: 143px;
+    width: 545px;
+}
+
+.typo5 {
+    font-family: "Montserrat" !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-size: 45px !important;
+    line-height: 75px !important;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.faq {
+    background: linear-gradient(180deg, #0b152a 0%, rgba(6, 13, 28, 0) 100%);
+    padding: 100px 50px;
+    /*margin: 0px 50px;*/
+
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.par {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #778db9;
+    display: flex;
+}
+
+.box_par {
+    justify-content: center;
+    /* margin-left: 12%; */
+}
+
+.accord-summary {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@media only screen and (max-width: 1130px) {
+    .typo5 {
+        font-size: 38px !important;
+    }
+    .box_accor {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:1032px) {
+    .accor {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .typopar {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .typo5 {
+        text-align: center;
+    }
+    .box_accor {
+        margin-top: 100px !important;
+    }
+    .par {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .box_typo5 {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 723px) {
+    .box_typo5 {
+        margin-left: -10px;
+    }
+}
+
+.box_accor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*align-items:flex-start;*/
+}
+
+.accor {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.accordiann {
+    background: linear-gradient(180deg, #0b152a 100%, rgba(6, 13, 28, 0) 100%);
+}
+
+.acctypo {
+    color: rgba(119, 141, 185, 1);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.typopar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*align-items: start;
+    justify-content: start;*/
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    color: rgba(119, 141, 185, 1) !important;
+}
+
+.box_accor>.MuiPaper-root {
+    margin-bottom: 10px;
+    border: 1px solid #1d2b49;
+    border-radius: 9px;
+}
+
+.frequent-wrapper {
+    position: relative;
+    margin-top: 40px;
+}
+
+
+/* @media only screen and (max-width: 600px) {
+  .frequent-wrapper {
+    left: 27%;
+  }
+} */
+
+@media only screen and (max-width: 625px) {
+    .faq {
+        padding: 10px 10px;
+    }
+    .accor {
+        font-size: 13px !important;
+    }
+    .acctypo {
+        font-size: 13px !important;
+    }
+    .faq {
+        margin: 0px 0px;
+    }
+}
+
+.frequent-wrapper button {
+    border: none;
+    width: 217px;
+    height: 64px;
+    background: #f4765d;
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.frequent-back-button {
+    position: absolute;
+    border: 1px solid white;
+    top: 10px;
+    left: 10px;
+    width: 217px;
+    height: 64px;
+    z-index: -1;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+    .box_accor {
+        margin-left: 0px !important;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+/* @media only screen and (max-width: 390px) {
+  .box_accor {
+    margin-left: -88px !important;
+    width: 329% !important;
+  }
+} */
+
+@media only screen and (max-width: 700px) {
+    .par {
+        text-align: center;
+    }
+    .discord-button-wrapper {
+        left: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 427px) {
+    .typo5 {
+        font-size: 28px !important;
+    }
+    .divaf {
+        top: 14%;
+        left: -5px;
+    }
+}
+
+.divaf {
+    width: 10px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: -5px;
+    padding: 1px 2px 0px;
+    background: #f4765d;
+}
+
+.divcl {
+    width: 10px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    padding: 1px 2px 0px;
+    left: -5px;
+    background: #1d2b49;
+}

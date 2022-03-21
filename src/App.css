@@ -1,0 +1,73 @@
+.max-w {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.box {
+  padding: 1px 0;
+}
+
+.box-container {
+  margin-top: 6rem;
+  margin-bottom: 0;
+}
+
+.game-images {
+  outline: none !important;
+}
+
+.adjust-main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.app-ellipse-2 {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(300px);
+  background-color: #62BFAF;
+  opacity: 0.9;
+  top: 5%;
+  left: 90%;
+  z-index: -1;
+  box-shadow: inset 0px 3.80463px 500px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1310px) {
+  .adjust-main {
+    margin: 0px 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .adjust-main {
+    margin: 0px 10px;
+  }
+
+  .app-ellipse-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .button3 {
+    font-size: 27px;
+    text-align: center;
+  }
+
+  .button2 {
+    font-size: 35px;
+    text-align: center;
+  }
+}
+/* .adjust-main {
+  margin: 0px 50px;
+} */
+@media screen and (max-width: 375px) {
+  .adjust-main {
+    margin: 0px 0px;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,124 @@
+.typo {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.team-image {
+    width: 100%;
+}
+
+.team-slide-box {
+    width: 100%;
+    height: 100%;
+}
+
+.team_image_box_icons {
+    width: 100%;
+}
+/*.button3 {margin-bottom: 30px;}*/
+
+.spn {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: #778db9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dv {
+    top: 1%;
+    /* bottom: 25%; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mar {
+    background: linear-gradient( 180deg, rgba(29, 43, 73, 0.4) 0%, rgba(29, 43, 73, 0) 100%);
+    backdrop-filter: blur(34px);
+    /* Note: backdrop-filter has minimal browser support */
+    position: absolute;
+    border-radius: 10px;
+    width: 200px;
+    top: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.im {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.imm {
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    margin-right: 20px;
+}
+
+.see-more-members-wrapper {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .mar {
+        background: linear-gradient( 180deg, rgba(29, 43, 73, 0.4) 0%, rgba(29, 43, 73, 0) 100%);
+        backdrop-filter: blur(34px);
+        /* Note: backdrop-filter has minimal browser support */
+        position: absolute;
+        border-radius: 10px;
+        width: 80%;
+        top: 60%;
+    }
+    .button3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .see-more-members-wrapper {
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+        margin-top: -30px;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .see-more-members-wrapper span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+        color: #778DB9;
+        text-align: center;
+        display: flex;
+        z-index: 100;
+    }
+    .dv {
+        margin: 0px 10px;
+    }
+}

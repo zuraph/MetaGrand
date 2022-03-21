@@ -1,0 +1,422 @@
+.roadmap-main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmap-header-button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.roadmap-header h1 {
+    width: 332px;
+    height: 55px;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.roademap-button-wrapper {
+    margin-top: 20px;
+    width: 416px;
+    height: 62px;
+    border: 1px solid #1D2B49;
+    box-sizing: border-box;
+    border-radius: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+.roademap-button-wrapper span {
+    width: 202px;
+    height: 52px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    /* background: #4884EF; */
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #778DB9;
+    cursor: pointer;
+}
+
+.roadmap-wrapper {
+    width: 1282px;
+    /*height: 1425px;*/
+    background: linear-gradient(180deg, #0B152A 0%, rgba(6, 13, 28, 0) 100%);
+    border-radius: 20px;
+    padding: 40px 20px 0px 0px;
+}
+
+.roadmap-stages-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.roadmap-stages {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    /* Color Tone 3 */
+    color: #778DB9;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.roadmap-stageNumber {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: right;
+    color: #778DB9;
+    padding-right: 4px;
+}
+
+.roadmap-stageTitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: right;
+    color: #778DB9;
+}
+
+.road-map-center-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse-4 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(300px);
+    background-color: rgb(99, 14, 141);
+    z-index: -1;
+    top: 38%;
+    left: -39%;
+    box-shadow: inset 0px 3.80463px 500px rgb(0 0 0 / 25%);
+}
+
+.ellipse-5 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(300px);
+    background-color: rgb(99, 14, 141);
+    z-index: -1;
+    top: -3%;
+    right: -32%;
+    box-shadow: inset 0px 3.80463px 500px rgb(0 0 0 / 25%);
+}
+
+.roadmap-icon-div-1 {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    background: #060D1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmap-icon-div-2 {
+    width: 79px;
+    height: 79px;
+    background: #060D1C;
+    border: 1px solid rgba(72, 132, 239, 0.2);
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmap-icon-div-3 {
+    width: 58px;
+    height: 58px;
+    background: #060D1C;
+    border: 1px solid rgba(72, 132, 239, 0.4);
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmap-icon-div-4 {
+    width: 38px;
+    height: 38px;
+    background: #62BFAF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roadmap-line {
+    position: absolute;
+    top: 130px;
+    left: 65px;
+    width: 70px;
+    height: 0px;
+    border: 2px dashed #4884EF;
+    box-shadow: 0px 0px 8px #4884ef;
+    transform: rotate(90deg);
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+.roadmap-stage-names-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.roadmap-stage-names {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:1288px) {
+    .roadmap-wrapper {
+        width: 1000px;
+    }
+    .roadmap-line {
+        left: 40px;
+    }
+    .roadmap-stage-names-wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1014px) {
+    .roadmap-wrapper {
+        width: 800px;
+    }
+    .roadmap-stage-names-wrapper {
+        width: 80%;
+    }
+    .roadmap-line {
+        left: 20px;
+    }
+    .roadmap-stage-names {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:808px) {
+    .roadmap-wrapper {
+        width: 600px;
+        height: 1150px;
+    }
+    .roadmap-stages {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .roadmap-line {
+        left: 8px;
+        top: 100px;
+        /* right: 40px; */
+    }
+    .roadmap-stage-names {
+        font-size: 13px;
+        line-height: 27px;
+    }
+    .roadmap-icon-div-1 {
+        width: 67px;
+        height: 67px;
+    }
+    .roadmap-icon-div-2 {
+        width: 57px;
+        height: 57px;
+    }
+    .roadmap-icon-div-3 {
+        width: 37px;
+        height: 37px;
+    }
+    .roadmap-icon-div-4 {
+        width: 17px;
+        height: 17px;
+    }
+    .roadmap-icon-tick {
+        width: 15px !important;
+    }
+}
+
+@media screen and (max-width:608px) {
+    .roadmap-wrapper {
+        width: 540px;
+        height: 1200px;
+    }
+    .roadmap-stageNumber {
+        font-size: 14px;
+    }
+    .roadmap-stageTitle {
+        font-size: 14px;
+    }
+    .roadmap-stages-wrapper {
+        width: 95%;
+    }
+    .roadmap-stages {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .roadmap-line {
+        top: 95px;
+        left: -2px;
+        width: 75px;
+        /* z-index: -1; */
+    }
+    .roadmap-stage-names {
+        font-size: 11px;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+    .roadmap-icon-div-1 {
+        width: 67px;
+        height: 67px;
+        background: none;
+    }
+    .roadmap-icon-div-2 {
+        width: 57px;
+        height: 57px;
+    }
+    .roadmap-icon-div-3 {
+        width: 37px;
+        height: 37px;
+    }
+    .roadmap-icon-div-4 {
+        width: 17px;
+        height: 17px;
+    }
+    .roadmap-icon-tick {
+        width: 15px !important;
+    }
+    .roadmap-main-wrapper {
+        position: relative;
+    }
+    .roadmap-header-button-wrapper {
+        position: absolute;
+        top: 0px;
+    }
+    .roadmap-mobile-view {
+        margin-top: 30px;
+        padding: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .roadmap-header h1 {
+        width: 200px;
+        height: 55px;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 55px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        padding-left: 20px;
+    }
+    .roademap-button-wrapper {
+        margin-top: 0px;
+        width: 280px;
+        height: 40px;
+        border: 1px solid #1D2B49;
+        box-sizing: border-box;
+        border-radius: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 40px;
+    }
+    .roademap-button-wrapper span {
+        width: 140px;
+        height: 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        text-transform: capitalize;
+        /* background: #4884EF; */
+        border-radius: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #778DB9;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .roadmap-wrapper {
+        width: 400px;
+        height: 1200px;
+    }
+    .roadmap-stages-wrapper {
+        width: 95%;
+    }
+    .roadmap-line {
+        top: 97px;
+        left: -13px;
+        width: 75px;
+    }
+}
+
+@media screen and (max-width:406px) {
+    .roadmap-wrapper {
+        width: 400px;
+        height: 1200px;
+    }
+    .roadmap-stages-wrapper {
+        width: 95%;
+    }
+    .roadmap-line {
+        top: 97px;
+        left: -13px;
+        width: 75px;
+    }
+    .roadmap-stage-names {
+        font-size: 10px;
+        margin-left: -10px;
+    }
+}
