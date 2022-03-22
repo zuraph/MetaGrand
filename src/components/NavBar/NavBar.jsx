@@ -19,7 +19,7 @@ export const NavBar = () => {
     <div style={{ marginBottom: "50px" }}>
       <div className="navbar">
         <div className="max-w nav-flex">
-          <div className="brand-name-image-wrapper">
+          <div className="brand-name-image-wrapper" onClick={()=> {setActiveLink("about"); window.scrollTo(0, 0)}}>
             <img src={Logo} alt="logo" />
           </div>
           <div className={`menu-items ${mobileView && "mobile-view-menu-items start-transition"}`}>

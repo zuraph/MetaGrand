@@ -4,6 +4,9 @@
     overflow: hidden;
     /* height: 420px; */
     z-index: -1;
+
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .left-side-discover-wrapper {
@@ -24,8 +27,9 @@
 
 .left-side-discover {
     position: absolute;
-    left: 170px;
+    /*left: 170px;*/
     top: 100px;
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -97,11 +101,15 @@
 }
 
 .right-side-discover {
-    width: 600px;
+    width: auto;
     height: 401px;
     margin-top: 50px;
     margin-right: 50px;
     display: flex;
+}
+
+.game-slide-wrapper .slick-initialized .slick-slide {
+    max-height: 210px;
 }
 
 @media screen and (max-width: 1550px) {
@@ -129,6 +137,7 @@
         position: absolute;
         left: 120px;
         top: 100px;
+        margin-left: 0;
     }
     .left-side-discover h1 {
         width: 624px;

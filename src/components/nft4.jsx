@@ -133,7 +133,7 @@ const Nft4 = () => {
     <>
       <Element id="core-team" className="box" name="core-team">
         <div className="box-container">
-          <h1 className="button3">Core Team</h1>
+          <h1 className="button3" style={{marginBottom: '30px'}}>Core Team</h1>
 
           <Box
             sx={{
